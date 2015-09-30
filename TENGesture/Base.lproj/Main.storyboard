@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nut.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="NTQ-a7-yIe">
+                                <rect key="frame" x="328" y="314" width="131" height="88"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="e8V-Hm-Auv" appends="YES" id="cBv-6b-3Qt"/>
+                                    <outletCollection property="gestureRecognizers" destination="UPp-8V-ujl" appends="YES" id="C6q-vx-v6I"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="squirrel.png" translatesAutoresizingMaskIntoConstraints="NO" id="yUe-Qe-YlP">
+                                <rect key="frame" x="74" y="91" width="240" height="164"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="dKh-ge-iZs" appends="YES" id="iAs-pR-cCV"/>
+                                    <outletCollection property="gestureRecognizers" destination="as5-Yy-nr0" appends="YES" id="cb4-JT-NPg"/>
+                                    <outletCollection property="gestureRecognizers" destination="yit-6G-JFZ" appends="YES" id="BRu-0N-5BF"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="DHg-EO-o17" appends="YES" id="joB-TD-geU"/>
+                            <outletCollection property="gestureRecognizers" destination="rW0-zT-CCz" appends="YES" id="UuE-9f-WQA"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="edgeSwipe" destination="rW0-zT-CCz" id="dn1-eZ-oLb"/>
+                        <outlet property="nutPan" destination="e8V-Hm-Auv" id="Khz-6j-mrr"/>
+                        <outlet property="squirellPan" destination="dKh-ge-iZs" id="HcR-ga-t9F"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="up" numberOfTouchesRequired="2" id="DHg-EO-o17"/>
+                <screenEdgePanGestureRecognizer minimumNumberOfTouches="1" id="rW0-zT-CCz">
+                    <rectEdge key="edges" left="YES"/>
+                    <connections>
+                        <action selector="swipe:" destination="BYZ-38-t0r" id="nFs-SY-i3C"/>
+                    </connections>
+                </screenEdgePanGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="dKh-ge-iZs">
+                    <connections>
+                        <action selector="handlePan:" destination="BYZ-38-t0r" id="OQY-ov-imA"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="mii-us-RrG"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="e8V-Hm-Auv">
+                    <connections>
+                        <action selector="handlePan:" destination="BYZ-38-t0r" id="D7M-zN-oJL"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="uPT-wa-yiC"/>
+                    </connections>
+                </panGestureRecognizer>
+                <pinchGestureRecognizer id="yit-6G-JFZ">
+                    <connections>
+                        <action selector="handlePinch:" destination="BYZ-38-t0r" id="95T-SL-q6S"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="2jE-IV-CWb"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="UPp-8V-ujl">
+                    <connections>
+                        <action selector="handleLongPress:" destination="BYZ-38-t0r" id="xCK-Nw-gA6"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+                <rotationGestureRecognizer id="as5-Yy-nr0">
+                    <connections>
+                        <action selector="handleRotate:" destination="BYZ-38-t0r" id="2QA-nB-L4e"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="qmZ-JC-NVD"/>
+                    </connections>
+                </rotationGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1213" y="397"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="nut.jpg" width="660" height="440"/>
+        <image name="squirrel.png" width="310" height="216"/>
+    </resources>
+</document>

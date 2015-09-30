@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7680C4661BBA96B700657FF1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7680C4651BBA96B700657FF1 /* AVFoundation.framework */; };
+		76CD1E291BBBC1E400DD7BE5 /* hehehe1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76CD1E281BBBC1E400DD7BE5 /* hehehe1.wav */; settings = {ASSET_TAGS = (); }; };
+		76E76BF81BB2AB7D0066D946 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E76BF71BB2AB7D0066D946 /* main.m */; };
+		76E76BFB1BB2AB7D0066D946 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E76BFA1BB2AB7D0066D946 /* AppDelegate.m */; };
+		76E76BFE1BB2AB7D0066D946 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E76BFD1BB2AB7D0066D946 /* ViewController.m */; };
+		76E76C011BB2AB7D0066D946 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76E76BFF1BB2AB7D0066D946 /* Main.storyboard */; };
+		76E76C031BB2AB7D0066D946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76E76C021BB2AB7D0066D946 /* Assets.xcassets */; };
+		76E76C061BB2AB7D0066D946 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76E76C041BB2AB7D0066D946 /* LaunchScreen.storyboard */; };
+		76E76C111BB2AB7D0066D946 /* TENGestureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E76C101BB2AB7D0066D946 /* TENGestureTests.m */; };
+		76E76C1C1BB2AB7D0066D946 /* TENGestureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E76C1B1BB2AB7D0066D946 /* TENGestureUITests.m */; };
+		76E76C2A1BB2AD0A0066D946 /* nut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 76E76C291BB2AD0A0066D946 /* nut.jpg */; settings = {ASSET_TAGS = (); }; };
+		76E76C2C1BB2AD0F0066D946 /* squirrel.png in Resources */ = {isa = PBXBuildFile; fileRef = 76E76C2B1BB2AD0F0066D946 /* squirrel.png */; settings = {ASSET_TAGS = (); }; };
+		76FFD1001BBABF1100473F65 /* chomp.wav in Resources */ = {isa = PBXBuildFile; fileRef = 76FFD0FF1BBABF1100473F65 /* chomp.wav */; settings = {ASSET_TAGS = (); }; };
+		76FFD1031BBAD0F300473F65 /* TENTickleGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FFD1021BBAD0F300473F65 /* TENTickleGestureRecognizer.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76E76C0D1BB2AB7D0066D946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76E76BEB1BB2AB7C0066D946 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76E76BF21BB2AB7C0066D946;
+			remoteInfo = TENGesture;
+		};
+		76E76C181BB2AB7D0066D946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76E76BEB1BB2AB7C0066D946 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76E76BF21BB2AB7C0066D946;
+			remoteInfo = TENGesture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7680C4651BBA96B700657FF1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		76CD1E281BBBC1E400DD7BE5 /* hehehe1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hehehe1.wav; sourceTree = "<group>"; };
+		76E76BF31BB2AB7C0066D946 /* TENGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TENGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E76BF71BB2AB7D0066D946 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76E76BF91BB2AB7D0066D946 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76E76BFA1BB2AB7D0066D946 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76E76BFC1BB2AB7D0066D946 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		76E76BFD1BB2AB7D0066D946 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76E76C001BB2AB7D0066D946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76E76C021BB2AB7D0066D946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76E76C051BB2AB7D0066D946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76E76C071BB2AB7D0066D946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76E76C0C1BB2AB7D0066D946 /* TENGestureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TENGestureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E76C101BB2AB7D0066D946 /* TENGestureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TENGestureTests.m; sourceTree = "<group>"; };
+		76E76C121BB2AB7D0066D946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76E76C171BB2AB7D0066D946 /* TENGestureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TENGestureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E76C1B1BB2AB7D0066D946 /* TENGestureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TENGestureUITests.m; sourceTree = "<group>"; };
+		76E76C1D1BB2AB7D0066D946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76E76C291BB2AD0A0066D946 /* nut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nut.jpg; sourceTree = "<group>"; };
+		76E76C2B1BB2AD0F0066D946 /* squirrel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squirrel.png; sourceTree = "<group>"; };
+		76FFD0FF1BBABF1100473F65 /* chomp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chomp.wav; sourceTree = "<group>"; };
+		76FFD1011BBAD0F300473F65 /* TENTickleGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TENTickleGestureRecognizer.h; sourceTree = "<group>"; };
+		76FFD1021BBAD0F300473F65 /* TENTickleGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TENTickleGestureRecognizer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76E76BF01BB2AB7C0066D946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7680C4661BBA96B700657FF1 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E76C091BB2AB7D0066D946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E76C141BB2AB7D0066D946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76E76BEA1BB2AB7C0066D946 = {
+			isa = PBXGroup;
+			children = (
+				7680C4651BBA96B700657FF1 /* AVFoundation.framework */,
+				76E76BF51BB2AB7C0066D946 /* TENGesture */,
+				76E76C0F1BB2AB7D0066D946 /* TENGestureTests */,
+				76E76C1A1BB2AB7D0066D946 /* TENGestureUITests */,
+				76E76BF41BB2AB7C0066D946 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76E76BF41BB2AB7C0066D946 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76E76BF31BB2AB7C0066D946 /* TENGesture.app */,
+				76E76C0C1BB2AB7D0066D946 /* TENGestureTests.xctest */,
+				76E76C171BB2AB7D0066D946 /* TENGestureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76E76BF51BB2AB7C0066D946 /* TENGesture */ = {
+			isa = PBXGroup;
+			children = (
+				76FFD0FF1BBABF1100473F65 /* chomp.wav */,
+				76CD1E281BBBC1E400DD7BE5 /* hehehe1.wav */,
+				76E76C291BB2AD0A0066D946 /* nut.jpg */,
+				76E76C2B1BB2AD0F0066D946 /* squirrel.png */,
+				76E76BF91BB2AB7D0066D946 /* AppDelegate.h */,
+				76E76BFA1BB2AB7D0066D946 /* AppDelegate.m */,
+				76E76BFC1BB2AB7D0066D946 /* ViewController.h */,
+				76E76BFD1BB2AB7D0066D946 /* ViewController.m */,
+				76E76BFF1BB2AB7D0066D946 /* Main.storyboard */,
+				76E76C021BB2AB7D0066D946 /* Assets.xcassets */,
+				76E76C041BB2AB7D0066D946 /* LaunchScreen.storyboard */,
+				76E76C071BB2AB7D0066D946 /* Info.plist */,
+				76E76BF61BB2AB7D0066D946 /* Supporting Files */,
+				76FFD1011BBAD0F300473F65 /* TENTickleGestureRecognizer.h */,
+				76FFD1021BBAD0F300473F65 /* TENTickleGestureRecognizer.m */,
+			);
+			path = TENGesture;
+			sourceTree = "<group>";
+		};
+		76E76BF61BB2AB7D0066D946 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76E76BF71BB2AB7D0066D946 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76E76C0F1BB2AB7D0066D946 /* TENGestureTests */ = {
+			isa = PBXGroup;
+			children = (
+				76E76C101BB2AB7D0066D946 /* TENGestureTests.m */,
+				76E76C121BB2AB7D0066D946 /* Info.plist */,
+			);
+			path = TENGestureTests;
+			sourceTree = "<group>";
+		};
+		76E76C1A1BB2AB7D0066D946 /* TENGestureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76E76C1B1BB2AB7D0066D946 /* TENGestureUITests.m */,
+				76E76C1D1BB2AB7D0066D946 /* Info.plist */,
+			);
+			path = TENGestureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76E76BF21BB2AB7C0066D946 /* TENGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76E76C201BB2AB7D0066D946 /* Build configuration list for PBXNativeTarget "TENGesture" */;
+			buildPhases = (
+				76E76BEF1BB2AB7C0066D946 /* Sources */,
+				76E76BF01BB2AB7C0066D946 /* Frameworks */,
+				76E76BF11BB2AB7C0066D946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TENGesture;
+			productName = TENGesture;
+			productReference = 76E76BF31BB2AB7C0066D946 /* TENGesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76E76C0B1BB2AB7D0066D946 /* TENGestureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76E76C231BB2AB7D0066D946 /* Build configuration list for PBXNativeTarget "TENGestureTests" */;
+			buildPhases = (
+				76E76C081BB2AB7D0066D946 /* Sources */,
+				76E76C091BB2AB7D0066D946 /* Frameworks */,
+				76E76C0A1BB2AB7D0066D946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76E76C0E1BB2AB7D0066D946 /* PBXTargetDependency */,
+			);
+			name = TENGestureTests;
+			productName = TENGestureTests;
+			productReference = 76E76C0C1BB2AB7D0066D946 /* TENGestureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76E76C161BB2AB7D0066D946 /* TENGestureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76E76C261BB2AB7D0066D946 /* Build configuration list for PBXNativeTarget "TENGestureUITests" */;
+			buildPhases = (
+				76E76C131BB2AB7D0066D946 /* Sources */,
+				76E76C141BB2AB7D0066D946 /* Frameworks */,
+				76E76C151BB2AB7D0066D946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76E76C191BB2AB7D0066D946 /* PBXTargetDependency */,
+			);
+			name = TENGestureUITests;
+			productName = TENGestureUITests;
+			productReference = 76E76C171BB2AB7D0066D946 /* TENGestureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76E76BEB1BB2AB7C0066D946 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = 444ten;
+				TargetAttributes = {
+					76E76BF21BB2AB7C0066D946 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					76E76C0B1BB2AB7D0066D946 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 76E76BF21BB2AB7C0066D946;
+					};
+					76E76C161BB2AB7D0066D946 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 76E76BF21BB2AB7C0066D946;
+					};
+				};
+			};
+			buildConfigurationList = 76E76BEE1BB2AB7C0066D946 /* Build configuration list for PBXProject "TENGesture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76E76BEA1BB2AB7C0066D946;
+			productRefGroup = 76E76BF41BB2AB7C0066D946 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76E76BF21BB2AB7C0066D946 /* TENGesture */,
+				76E76C0B1BB2AB7D0066D946 /* TENGestureTests */,
+				76E76C161BB2AB7D0066D946 /* TENGestureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76E76BF11BB2AB7C0066D946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76FFD1001BBABF1100473F65 /* chomp.wav in Resources */,
+				76E76C061BB2AB7D0066D946 /* LaunchScreen.storyboard in Resources */,
+				76E76C2C1BB2AD0F0066D946 /* squirrel.png in Resources */,
+				76CD1E291BBBC1E400DD7BE5 /* hehehe1.wav in Resources */,
+				76E76C2A1BB2AD0A0066D946 /* nut.jpg in Resources */,
+				76E76C031BB2AB7D0066D946 /* Assets.xcassets in Resources */,
+				76E76C011BB2AB7D0066D946 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E76C0A1BB2AB7D0066D946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E76C151BB2AB7D0066D946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76E76BEF1BB2AB7C0066D946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E76BFE1BB2AB7D0066D946 /* ViewController.m in Sources */,
+				76FFD1031BBAD0F300473F65 /* TENTickleGestureRecognizer.m in Sources */,
+				76E76BFB1BB2AB7D0066D946 /* AppDelegate.m in Sources */,
+				76E76BF81BB2AB7D0066D946 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E76C081BB2AB7D0066D946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E76C111BB2AB7D0066D946 /* TENGestureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76E76C131BB2AB7D0066D946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E76C1C1BB2AB7D0066D946 /* TENGestureUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76E76C0E1BB2AB7D0066D946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76E76BF21BB2AB7C0066D946 /* TENGesture */;
+			targetProxy = 76E76C0D1BB2AB7D0066D946 /* PBXContainerItemProxy */;
+		};
+		76E76C191BB2AB7D0066D946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76E76BF21BB2AB7C0066D946 /* TENGesture */;
+			targetProxy = 76E76C181BB2AB7D0066D946 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76E76BFF1BB2AB7D0066D946 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76E76C001BB2AB7D0066D946 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76E76C041BB2AB7D0066D946 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76E76C051BB2AB7D0066D946 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76E76C1E1BB2AB7D0066D946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76E76C1F1BB2AB7D0066D946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76E76C211BB2AB7D0066D946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TENGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-44ten.TENGesture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76E76C221BB2AB7D0066D946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TENGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-44ten.TENGesture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		76E76C241BB2AB7D0066D946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TENGestureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-44ten.TENGestureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TENGesture.app/TENGesture";
+			};
+			name = Debug;
+		};
+		76E76C251BB2AB7D0066D946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TENGestureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-44ten.TENGestureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TENGesture.app/TENGesture";
+			};
+			name = Release;
+		};
+		76E76C271BB2AB7D0066D946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TENGestureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-44ten.TENGestureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TENGesture;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		76E76C281BB2AB7D0066D946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TENGestureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-44ten.TENGestureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TENGesture;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76E76BEE1BB2AB7C0066D946 /* Build configuration list for PBXProject "TENGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E76C1E1BB2AB7D0066D946 /* Debug */,
+				76E76C1F1BB2AB7D0066D946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76E76C201BB2AB7D0066D946 /* Build configuration list for PBXNativeTarget "TENGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E76C211BB2AB7D0066D946 /* Debug */,
+				76E76C221BB2AB7D0066D946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76E76C231BB2AB7D0066D946 /* Build configuration list for PBXNativeTarget "TENGestureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E76C241BB2AB7D0066D946 /* Debug */,
+				76E76C251BB2AB7D0066D946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76E76C261BB2AB7D0066D946 /* Build configuration list for PBXNativeTarget "TENGestureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E76C271BB2AB7D0066D946 /* Debug */,
+				76E76C281BB2AB7D0066D946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76E76BEB1BB2AB7C0066D946 /* Project object */;
+}
